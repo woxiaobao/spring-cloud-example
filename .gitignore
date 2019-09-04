@@ -1,0 +1,14 @@
+.classpath  
+.project  
+.settings
+/target/
+/.idea/
+/logs/
+*.iml
+*.jar
+*.log
+*.db
+*.class
+**/target/**
+**/localgitfile/
+.DS_Store

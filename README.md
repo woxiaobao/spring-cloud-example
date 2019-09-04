@@ -23,3 +23,9 @@ _项目基于Spring Boot 1.5.2.RELEASE，Spring Cloud Dalston.RELEASE，各模�
 | [config-client](config-client/README.md) | Config客户端，依赖 config-server |  
 | [swagger2-demo](swagger2-demo/README.md) | Swagger2 |  
 | [feign-demo](feign-demo/README.md) | Feign，依赖 eureka-server-ha \ eureka-client |  
+
+
+### 增加Dockerfile文件
+ ```
+ mvn clean package docker:build -DskipTests 
+```

@@ -11,7 +11,8 @@ eureka:
     leaseExpirationDurationInSeconds: 30
   client:
     serviceUrl:
-      defaultZone: http://peer1:8761/eureka/,http://peer2:8762/eureka/
+#      defaultZone: http://peer1:8761/eureka/,http://peer2:8762/eureka/
+      defaultZone: http://10.200.141.156:8761/eureka/
 
 management:
   security:
